@@ -1,0 +1,12 @@
+﻿  main.cpp
+main.obj : error LNK2019: unresolved external symbol _vkEnumerateInstanceExtensionProperties@12 referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwDestroyWindow referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function _main
+C:\Users\Ruba\code\vulkan\1.0.65.1\Lib\vulkan-1.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+C:\Users\Ruba\code\glfw-3.2.1\glfw-3.2.1\build\src\Debug\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+C:\Users\Ruba\documents\visual studio 2015\Projects\vulkano\Debug\vulkano.exe : fatal error LNK1120: 8 unresolved externals
