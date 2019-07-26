@@ -1105,9 +1105,8 @@ private:
 	}
 
 	void createGraphicsPipeline() {
-		auto vertShaderCode = readFile("C:/Users/Ruba/Documents/Visual Studio 2015/Projects/vulkano/Shaders/vert.spv");
-		//auto fragShaderCode = readFile("../Shaders/frag.spv");
-		auto fragShaderCode = readFile("C:/Users/Ruba/Documents/Visual Studio 2015/Projects/vulkano/Shaders/frag.spv");
+		auto vertShaderCode = readFile("../Shaders/vert.spv");
+		auto fragShaderCode = readFile("../Shaders/frag.spv");
 		VkShaderModule vertShaderModule;
 		VkShaderModule fragShaderModule;
 		vertShaderModule = createShaderModule(vertShaderCode);
