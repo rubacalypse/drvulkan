@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{2E1EF820-F104-420A-8519-D26B97A93331}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>vulkano</RootNamespace>
+    <RootNamespace>drvulkan</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
     <ProjectName>drvulkan</ProjectName>
   </PropertyGroup>
