@@ -126,14 +126,14 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);PROJECT_DIR=$(ProjectDir)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\Ruba\code\VulkanSDK\1.1.108.0\Include;C:\Users\Ruba\code\drvulkan\External\glm;C:\Users\Ruba\code\drvulkan\External\glfw\include;C:\Users\Ruba\code\drvulkan\External\tinyobjloader;C:\Users\Ruba\code\drvulkan\External\stb</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(VULKAN_SDK)\Include;$(SolutionDir)External\glm;$(SolutionDir)External\tinyobjloader;$(SolutionDir)External\stb;$(SolutionDir)External\glfw-3.3.bin.WIN64\glfw-3.3.bin.WIN64\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\Ruba\code\VulkanSDK\1.1.108.0\Lib;C:\Users\Ruba\code\glfw-3.3.bin.WIN64\glfw-3.3.bin.WIN64\lib-vc2017</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(VULKAN_SDK)\Lib;$(SolutionDir)External\glfw-3.3.bin.WIN64\glfw-3.3.bin.WIN64\lib-vc2017</AdditionalLibraryDirectories>
       <AdditionalDependencies>vulkan-1.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -147,14 +147,14 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;PROJECT_DIR=$(ProjectDir)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\Ruba\code\VulkanSDK\1.1.108.0\Include;C:\Users\Ruba\code\drvulkan\External\glm;C:\Users\Ruba\code\drvulkan\External\glfw\include;C:\Users\Ruba\code\drvulkan\External\tinyobjloader;C:\Users\Ruba\code\drvulkan\External\stb</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(VULKAN_SDK)\Include;$(SolutionDir)External\glm;$(SolutionDir)External\tinyobjloader;$(SolutionDir)External\stb;$(SolutionDir)External\glfw-3.3.bin.WIN64\glfw-3.3.bin.WIN64\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\Ruba\code\VulkanSDK\1.1.108.0\Lib;C:\Users\Ruba\code\glfw-3.3.bin.WIN64\glfw-3.3.bin.WIN64\lib-vc2017</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(VULKAN_SDK)\Lib;$(SolutionDir)External\glfw-3.3.bin.WIN64\glfw-3.3.bin.WIN64\lib-vc2017</AdditionalLibraryDirectories>
       <AdditionalDependencies>vulkan-1.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
