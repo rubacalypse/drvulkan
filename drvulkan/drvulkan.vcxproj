@@ -90,12 +90,12 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(SolutionDir)External\VulkanSDK\1.1.108.0\Include;$(SolutionDir)External\glm;$(SolutionDir)External\tinyobjloader;$(SolutionDir)External\stb;$(SolutionDir)External\glfw-3.3.bin.WIN64\glfw-3.3.bin.WIN64\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(VULKAN_SDK)\Include;$(SolutionDir)External\glm;$(SolutionDir)External\tinyobjloader;$(SolutionDir)External\stb;$(SolutionDir)External\glfw-3.3.bin.WIN64\glfw-3.3.bin.WIN64\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(SolutionDir)External\VulkanSDK\1.1.108.0\Lib;$(SolutionDir)External\glfw-3.3.bin.WIN64\glfw-3.3.bin.WIN64\lib-vc2017</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(VULKAN_SDK)\Lib;$(SolutionDir)External\glfw-3.3.bin.WIN64\glfw-3.3.bin.WIN64\lib-vc2017</AdditionalLibraryDirectories>
       <AdditionalDependencies>vulkan-1.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -107,12 +107,12 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(SolutionDir)External\VulkanSDK\1.1.108.0\Include;$(SolutionDir)External\glm;$(SolutionDir)External\tinyobjloader;$(SolutionDir)External\stb;$(SolutionDir)External\glfw-3.3.bin.WIN64\glfw-3.3.bin.WIN64\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(VULKAN_SDK)\Include;$(SolutionDir)External\glm;$(SolutionDir)External\tinyobjloader;$(SolutionDir)External\stb;$(SolutionDir)External\glfw-3.3.bin.WIN64\glfw-3.3.bin.WIN64\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(SolutionDir)External\VulkanSDK\1.1.108.0\Lib;$(SolutionDir)External\glfw-3.3.bin.WIN64\glfw-3.3.bin.WIN64\lib-vc2017</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(VULKAN_SDK)\Lib;$(SolutionDir)External\glfw-3.3.bin.WIN64\glfw-3.3.bin.WIN64\lib-vc2017</AdditionalLibraryDirectories>
       <AdditionalDependencies>vulkan-1.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
